@@ -63,21 +63,21 @@
 #     print(i_name, i_cost, sep=' -- ')
 
 # 4 task
-# server_data = {
-#     "server": {
-#         "host": "127.0.0.1",
-#         "port": "10"
-#     },
-#     "configuration": {
-#         "access": "true",
-#         "login": "Ivan",
-#         "password": "qwerty"
-#     }
-# }
-# for i_name, i_inf in server_data.items():
-#     print(f'{i_name}:')
-#     for j_name, j_inf in i_inf.items():
-#         print(f'\t{j_name}: {j_inf}')
+server_data = {
+    "server": {
+        "host": "127.0.0.1",
+        "port": "10"
+    },
+    "configuration": {
+        "access": "true",
+        "login": "Ivan",
+        "password": "qwerty"
+    }
+}
+for i_name, i_inf in server_data.items():
+    print(f'{i_name}:')
+    for j_name, j_inf in i_inf.items():
+        print(f'\t{j_name}: {j_inf}')
 
 # 5 task
-print([i_val for i_key, i_val in {0: 0, 1: 100, 2: 144, 3: 20, 4: 19}.items() if i_key % 2 == 0])
+# print([i_val for i_key, i_val in {0: 0, 1: 100, 2: 144, 3: 20, 4: 19}.items() if i_key % 2 == 0])
