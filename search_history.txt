@@ -1,0 +1,2 @@
+D:\Обучение\Python\SkillBox\lesson_22_1.pyD:\Обучение\Python\SkillBox\lesson_22_2.py
+D:\Обучение\Python\SkillBox\lesson_22_3.py

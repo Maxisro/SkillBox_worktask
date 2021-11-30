@@ -1,0 +1,8 @@
+def numbers(end):
+    if end != 1:
+        numbers(end-1)
+    print(end)
+
+numbers(10)
+
+# зачет
